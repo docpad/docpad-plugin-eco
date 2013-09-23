@@ -1,0 +1,13 @@
+---
+title: 'the client-side test for eco'
+---
+
+<p>this is <%= @document.title.toUpperCase() %></p>
+
+<div id="t">.</div>
+
+<script src="./eco.js"></script>
+<script>
+  document.getElementById("t").innerHTML =
+    JST['templates/eco.js']({name: 'Doc Paddling'});
+</script>
