@@ -27,8 +27,7 @@
     "url": "http://github.com/bevry/docpad-extras.git"
   },
   "engines": {
-    "node": ">=0.4",
-    "docpad": "6.x"
+    "node": ">=0.4"
   },
   "dependencies": {
     "eco": "~1.1.0"
