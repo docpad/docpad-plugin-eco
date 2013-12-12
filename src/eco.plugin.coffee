@@ -15,5 +15,11 @@ module.exports = (BasePlugin) ->
 				# Requires
 				eco = require('eco')
 
-				# Render
-				opts.content = eco.render(opts.content,templateData)
+				if opts.outExtension in ['js']
+					# Compile template into JavaScript functions
+					output = eco.compile(opts.content,'')
+					output = "window.JST['#{opts.file.get('relativeOutPath')}'] = #{output}\n"
+					opts.content = "if (!window.JST) {\n  window.JST = {};\n}\n#{output}\n"
+				else
+					# Render
+					opts.content = eco.render(opts.content,templateData)
