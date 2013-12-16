@@ -1,8 +1,18 @@
 {
   "name": "docpad-plugin-eco",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Adds support for the Eco templating engine to DocPad.",
   "homepage": "http://docpad.org/plugin/eco",
+  "license": {
+    "type": "MIT"
+  },
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "gittip": "bevry",
+    "flattr": "344188/balupton-on-Flattr",
+    "paypal": "QB8GQPZAH84N6"
+  },
   "keywords": [
     "docpad",
     "docpad-plugin",
@@ -12,7 +22,7 @@
     "render",
     "rendering"
   ],
-  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "author": "2012+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me), 2011 Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
@@ -29,17 +39,19 @@
   "engines": {
     "node": ">=0.4"
   },
+  "peerDependencies": {
+    "docpad": "6"
+  },
   "dependencies": {
     "eco": "~1.1.0"
   },
   "devDependencies": {
-    "coffee-script": "~1.4.0"
+    "docpad": "6",
+    "coffee-script": "~1.6.3",
+    "projectz": "~0.3.0"
   },
   "main": "./out/eco.plugin.js",
   "scripts": {
     "test": "node ./out/eco.test.js"
-  },
-  "peerDependencies": {
-    "docpad": "6"
   }
 }

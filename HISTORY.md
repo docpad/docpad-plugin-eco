@@ -1,4 +1,8 @@
-## History
+# History
+
+- v2.0.3 December 16, 2013
+	- Handle the use case where content is empty
+	- Repackaged
 
 - v2.0.2 March 7, 2013
 	- Repackaged

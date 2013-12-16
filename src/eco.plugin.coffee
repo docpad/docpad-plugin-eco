@@ -16,4 +16,10 @@ module.exports = (BasePlugin) ->
 				eco = require('eco')
 
 				# Render
-				opts.content = eco.render(opts.content,templateData)
+				try
+					opts.content = eco.render(opts.content or '', templateData)
+				catch err
+					return err
+
+			# Complete
+			return true
