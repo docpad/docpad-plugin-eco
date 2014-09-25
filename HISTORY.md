@@ -1,5 +1,8 @@
 # History
 
+- v2.1.0 September 24, 2014
+	- Dependency upgrades
+
 - v2.0.3 December 16, 2013
 	- Handle the use case where content is empty
 	- Repackaged
