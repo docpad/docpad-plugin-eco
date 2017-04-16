@@ -1,5 +1,9 @@
 # History
 
+## v2.2.0 2017 April 16
+- Updated base files
+- Bumped minimum node version from 0.4 to 0.12 to comply with node ecosystem
+
 ## v2.1.0 2014 September 24
 - Dependency upgrades
 
