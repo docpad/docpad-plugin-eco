@@ -1,5 +1,8 @@
 # History
 
+## v2.2.1 2017 April 20
+- Re-add node 0.8 support, as cutting it was unnecessary and problematic
+
 ## v2.2.0 2017 April 16
 - Updated base files
 - Bumped minimum node version from 0.4 to 0.12 to comply with node ecosystem
