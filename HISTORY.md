@@ -1,5 +1,9 @@
 # History
 
+## v2.3.0 2018 June 25
+- Now compiled with CoffeeScript v2
+- Updated base files
+
 ## v2.2.1 2017 April 20
 - Re-add node 0.8 support, as cutting it was unnecessary and problematic
 
