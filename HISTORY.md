@@ -30,7 +30,8 @@
 ## v2.0.2 2013 March 7
 
 -   Repackaged
--   Dependency upgrades - `eco` from 1.1.0 to ~1.1.0
+-   Dependency upgrades
+    - `eco` from 1.1.0 to ~1.1.0
 
 ## v2.0.1 2012 August 10
 
