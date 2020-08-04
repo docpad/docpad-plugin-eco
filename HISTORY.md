@@ -1,8 +1,9 @@
 # History
 
-## v2.4.0 2020 August 5
+## v2.5.0 2020 August 5
 
 -   Updated dependencies, [base files](https://github.com/bevry/base), and [editions](https://editions.bevry.me) using [boundation](https://github.com/bevry/boundation)
+-   Minimum required node version changed from `node: >=0.8` to `node: >=10` to keep up with mandatory ecosystem changes
 
 ## v2.3.0 2018 June 25
 
@@ -31,7 +32,7 @@
 
 -   Repackaged
 -   Dependency upgrades
-    - `eco` from 1.1.0 to ~1.1.0
+    -   `eco` from 1.1.0 to ~1.1.0
 
 ## v2.0.1 2012 August 10
 

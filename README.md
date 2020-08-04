@@ -2,7 +2,7 @@
 
 <!-- BADGES/ -->
 
-<span class="badge-travisci"><a href="http://travis-ci.org/docpad/docpad-plugin-eco" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/docpad/docpad-plugin-eco/master.svg" alt="Travis CI Build Status" /></a></span>
+<span class="badge-travisci"><a href="http://travis-ci.com/docpad/docpad-plugin-eco" title="Check this project's build status on TravisCI"><img src="https://img.shields.io/travis/com/docpad/docpad-plugin-eco/master.svg" alt="Travis CI Build Status" /></a></span>
 <span class="badge-npmversion"><a href="https://npmjs.org/package/docpad-plugin-eco" title="View this project on NPM"><img src="https://img.shields.io/npm/v/docpad-plugin-eco.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/docpad-plugin-eco" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/docpad-plugin-eco.svg" alt="NPM downloads" /></a></span>
 <span class="badge-daviddm"><a href="https://david-dm.org/docpad/docpad-plugin-eco" title="View the status of this project's dependencies on DavidDM"><img src="https://img.shields.io/david/docpad/docpad-plugin-eco.svg" alt="Dependency Status" /></a></span>
@@ -23,16 +23,13 @@
 
 Adds support for the [ECO](https://github.com/sstephenson/eco/) (embedded CoffeeScript templates) templating engine to [DocPad](https://docpad.org)
 
-Convention:  `.anything.eco`
+Convention: `.anything.eco`
 
 ## Install
 
 ```
 docpad install eco
 ```
-
-
-
 
 <!-- HISTORY/ -->
 
